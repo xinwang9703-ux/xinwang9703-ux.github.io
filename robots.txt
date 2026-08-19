@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://xinwang99.homepage/sitemap.xml
+Sitemap: https://xinwang9703-ux.github.io/homepage/sitemap.xml
