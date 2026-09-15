@@ -1,34 +1,56 @@
 ---
-layout: about
-title: about
+layout: default
+title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+nav: false
+description: Xin Wang builds AI-enabled optimization and decision-support tools for supply chain planning.
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<link rel="stylesheet" href="{{ '/assets/css/personal-site.css' | relative_url }}">
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<div class="personal-layout">
+  <aside class="personal-profile" aria-label="Profile">
+    <div class="personal-monogram" aria-hidden="true">XW</div>
+    <h1>Xin Wang</h1>
+    <p>AI Research Scientist<br>Supply Chain Optimization</p>
+    <nav class="personal-profile-links" aria-label="Profile links">
+      <a href="{{ '/cv/' | relative_url }}">CV</a>
+      <a href="https://github.com/{{ site.data.socials.github_username }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </aside>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+  <div class="personal-content">
+    <header class="personal-intro">
+      <p class="personal-eyebrow">Operations research · AI · supply chain</p>
+      <h2>Turning complex supply chain questions into decisions people can use.</h2>
+      <p>I build AI-enabled optimization and decision-support solutions for supply chain planning. At Ashley Furniture, I work with cross-functional teams to frame operational questions, evaluate scenarios, and make cost, service, and network trade-offs easier to understand.</p>
+    </header>
+
+    <section aria-labelledby="focus-heading">
+      <h2 id="focus-heading">What I work on</h2>
+      <div class="personal-entry"><h3>Network design and decision-support agents</h3><p>Exploring network scenarios and translating optimization results into clear, business-facing choices.</p></div>
+      <div class="personal-entry"><h3>Inventory optimization</h3><p>Balancing inventory investment, replenishment decisions, operating constraints, and service goals.</p></div>
+      <div class="personal-entry"><h3>Ocean container loading</h3><p>Improving loading and utilization decisions while respecting practical capacity and operational constraints.</p></div>
+      <a class="personal-text-link" href="{{ '/projects/' | relative_url }}">Explore selected work →</a>
+    </section>
+
+    <section aria-labelledby="approach-heading">
+      <h2 id="approach-heading">How I work</h2>
+      <p>I connect business context with technical delivery: identify the decision, understand the data and constraints, build an appropriate model or prototype, and communicate what the results mean. I care about solutions that are useful, transparent, scalable, and maintainable—not just technically interesting.</p>
+      <p>My toolkit includes <strong>Python, SQL, Gurobi, optimization modeling, simulation, and data analysis</strong>.</p>
+    </section>
+
+    <section aria-labelledby="background-heading">
+      <h2 id="background-heading">Background</h2>
+      <p>I hold a Ph.D. from the National University of Singapore, an M.S. from the University of North Carolina at Chapel Hill, and a B.S. from Shanghai Jiao Tong University. My research training in operations research and statistics supports the practical decision systems I build today.</p>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Get in touch</h2>
+      <p>I enjoy connecting with people working on supply chain analytics, optimization, and AI-enabled decision support. The best way to reach me is by email; you can also find my work on <a href="https://github.com/{{ site.data.socials.github_username }}" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+      <div class="personal-contact-links">{% social_links %}</div>
+    </section>
+
+  </div>
+</div>

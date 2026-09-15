@@ -1,0 +1,259 @@
+:root {
+  --personal-ink: #273340;
+  --personal-muted: #65717c;
+  --personal-line: #e4e9ed;
+  --personal-accent: #486d83;
+  --personal-surface: #f8fbfc;
+}
+
+body {
+  color: var(--personal-ink);
+  background: #fdfefe;
+}
+
+.navbar,
+header .navbar {
+  background: var(--personal-surface) !important;
+  border-bottom: 1px solid var(--personal-line);
+  box-shadow: none !important;
+}
+
+.navbar .nav-link {
+  color: var(--personal-ink) !important;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: var(--personal-accent) !important;
+}
+
+@media (min-width: 576px) {
+  .navbar .container {
+    justify-content: center;
+  }
+
+  .navbar .navbar-brand {
+    display: none;
+  }
+
+  .navbar .navbar-collapse-main {
+    flex-grow: 0;
+  }
+
+  .navbar .navbar-menu-list {
+    gap: clamp(8px, 1.7vw, 24px);
+  }
+}
+
+.personal-layout {
+  display: grid;
+  grid-template-columns: 230px minmax(0, 1fr);
+  gap: clamp(36px, 6vw, 82px);
+  max-width: 1080px;
+  margin: 46px auto 110px;
+  padding: 0 18px;
+  align-items: start;
+}
+
+.personal-profile {
+  position: sticky;
+  top: 112px;
+  text-align: center;
+  padding-top: 4px;
+}
+
+.personal-monogram {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 18px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #e7eef2;
+  color: #405c6d;
+  font:
+    600 48px/1 Georgia,
+    serif;
+  letter-spacing: -0.08em;
+  box-shadow: 0 8px 22px rgb(30 50 65 / 8%);
+}
+
+.personal-profile h1 {
+  margin: 0 0 8px;
+  color: var(--personal-ink);
+  font:
+    700 32px/1.2 Georgia,
+    serif;
+}
+
+.personal-profile p {
+  margin: 0;
+  color: var(--personal-muted);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.personal-profile-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.personal-profile-links a {
+  color: var(--personal-muted);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.personal-content {
+  min-width: 0;
+  font-size: 17px;
+  line-height: 1.68;
+}
+
+.personal-content h2,
+.personal-content h3 {
+  color: var(--personal-ink);
+  letter-spacing: -0.025em;
+}
+
+.personal-content h2 {
+  margin: 0 0 14px;
+  font-size: clamp(25px, 3vw, 31px);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.personal-content h3 {
+  margin: 0 0 3px;
+  font-size: 18px;
+  font-weight: 650;
+  line-height: 1.45;
+}
+
+.personal-content p {
+  margin: 0 0 14px;
+  color: #414d58;
+}
+
+.personal-content a {
+  color: var(--personal-accent);
+  text-decoration: none;
+}
+
+.personal-content a:hover {
+  text-decoration: underline;
+}
+
+.personal-intro {
+  margin-bottom: 62px;
+}
+
+.personal-intro h2 {
+  font-size: clamp(29px, 3.7vw, 39px);
+  line-height: 1.23;
+  max-width: 660px;
+}
+
+.personal-intro > p:last-child {
+  max-width: 680px;
+}
+
+.personal-eyebrow {
+  color: var(--personal-muted) !important;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 13px !important;
+}
+
+.personal-content section {
+  margin: 0 0 62px;
+}
+
+.personal-entry {
+  margin: 0 0 24px;
+}
+
+.personal-entry p {
+  margin: 0;
+}
+
+.personal-writing-entry {
+  margin-bottom: 32px;
+}
+
+.personal-writing-entry .personal-entry-date {
+  color: var(--personal-muted);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+}
+
+.personal-text-link {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.personal-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.personal-photo-grid figure {
+  margin: 0;
+}
+
+.personal-photo-grid img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.personal-photo-grid figcaption {
+  color: var(--personal-muted);
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+@media (max-width: 740px) {
+  .personal-layout {
+    grid-template-columns: 1fr;
+    gap: 38px;
+    margin-top: 30px;
+  }
+
+  .personal-profile {
+    position: static;
+  }
+
+  .personal-monogram {
+    width: 108px;
+    height: 108px;
+    font-size: 36px;
+  }
+
+  .personal-content section,
+  .personal-intro {
+    margin-bottom: 44px;
+  }
+}
+
+@media (max-width: 520px) {
+  .personal-photo-grid {
+    grid-template-columns: 1fr;
+  }
+}
