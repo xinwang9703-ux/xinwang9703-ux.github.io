@@ -25,6 +25,7 @@ description: Xin Wang builds AI-enabled optimization and decision-support tools 
       <p class="personal-eyebrow">Operations research · AI · supply chain</p>
       <h2>Turning complex supply chain questions into decisions people can use.</h2>
       <p>I build AI-enabled optimization and decision-support solutions for supply chain planning. At Ashley Furniture's AI Innovation team, I lead network-design work that connects mathematical optimization, reproducible data pipelines, and LLM-assisted workflows with real planning decisions.</p>
+      <p>I hold a Ph.D. from the National University of Singapore, an M.S. from the University of North Carolina at Chapel Hill, and a B.S. from Shanghai Jiao Tong University. My research training in operations research and statistics supports the practical decision systems I build today.</p>
     </header>
 
     <section aria-labelledby="focus-heading">
@@ -39,11 +40,6 @@ description: Xin Wang builds AI-enabled optimization and decision-support tools 
       <h2 id="approach-heading">How I work</h2>
       <p>I connect business context with technical delivery: identify the decision, understand the data and constraints, build an appropriate model or prototype, and communicate what the results mean. I care about solutions that are useful, transparent, scalable, and maintainable—not just technically interesting.</p>
       <p>My toolkit includes <strong>Python, SQL, PySpark, Gurobi, Databricks, optimization modeling, simulation, and LLM tool orchestration</strong>.</p>
-    </section>
-
-    <section aria-labelledby="background-heading">
-      <h2 id="background-heading">Background</h2>
-      <p>I hold a Ph.D. from the National University of Singapore, an M.S. from the University of North Carolina at Chapel Hill, and a B.S. from Shanghai Jiao Tong University. My research training in operations research and statistics supports the practical decision systems I build today.</p>
     </section>
 
     <section id="contact" aria-labelledby="contact-heading">
