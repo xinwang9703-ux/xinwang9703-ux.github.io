@@ -24,13 +24,13 @@ description: Xin Wang builds AI-enabled optimization and decision-support tools 
     <header class="personal-intro">
       <p class="personal-eyebrow">Operations research · AI · supply chain</p>
       <h2>Turning complex supply chain questions into decisions people can use.</h2>
-      <p>I build AI-enabled optimization and decision-support solutions for supply chain planning. At Ashley Furniture, I work with cross-functional teams to frame operational questions, evaluate scenarios, and make cost, service, and network trade-offs easier to understand.</p>
+      <p>I build AI-enabled optimization and decision-support solutions for supply chain planning. At Ashley Furniture's AI Innovation team, I lead network-design work that connects mathematical optimization, reproducible data pipelines, and LLM-assisted workflows with real planning decisions.</p>
     </header>
 
     <section aria-labelledby="focus-heading">
       <h2 id="focus-heading">What I work on</h2>
-      <div class="personal-entry"><h3>Network design and decision-support agents</h3><p>Exploring network scenarios and translating optimization results into clear, business-facing choices.</p></div>
-      <div class="personal-entry"><h3>Inventory optimization</h3><p>Balancing inventory investment, replenishment decisions, operating constraints, and service goals.</p></div>
+      <div class="personal-entry"><h3>Network design and decision-support agents</h3><p>Leading solver-backed network-design work across facility, origin-destination, transportation-mode, replenishment, cost, working-capital, service, and SLA/OTIF decisions.</p></div>
+      <div class="personal-entry"><h3>Inventory optimization</h3><p>Contributing to channel-aware SKU and set segmentation, set-aware safety stock, and early-stage multi-echelon inventory optimization.</p></div>
       <div class="personal-entry"><h3>Ocean container loading</h3><p>Improving loading and utilization decisions while respecting practical capacity and operational constraints.</p></div>
       <a class="personal-text-link" href="{{ '/projects/' | relative_url }}">Explore selected work →</a>
     </section>
@@ -38,7 +38,7 @@ description: Xin Wang builds AI-enabled optimization and decision-support tools 
     <section aria-labelledby="approach-heading">
       <h2 id="approach-heading">How I work</h2>
       <p>I connect business context with technical delivery: identify the decision, understand the data and constraints, build an appropriate model or prototype, and communicate what the results mean. I care about solutions that are useful, transparent, scalable, and maintainable—not just technically interesting.</p>
-      <p>My toolkit includes <strong>Python, SQL, Gurobi, optimization modeling, simulation, and data analysis</strong>.</p>
+      <p>My toolkit includes <strong>Python, SQL, PySpark, Gurobi, Databricks, optimization modeling, simulation, and LLM tool orchestration</strong>.</p>
     </section>
 
     <section aria-labelledby="background-heading">

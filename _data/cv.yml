@@ -3,7 +3,7 @@ cv:
   label: AI Research Scientist | Operations Research & Supply Chain Analytics
   email: xwang@ashleyfurniture.com
   image: ""
-  summary: AI Research Scientist applying operations research, data analysis, optimization modeling, and decision-support tools to supply chain planning and operational improvement.
+  summary: AI Research Scientist and operations researcher building AI-enabled supply-chain decision systems that combine LLM agents with mathematical optimization.
 
   social_networks:
     - network: GitHub
@@ -11,29 +11,19 @@ cv:
 
   sections:
     Experience:
-      - company: Ashley Furniture (Shanghai) Company Limited, Shenzhen Office
+      - company: Ashley Furniture Industries — AI Innovation
         position: AI Research Scientist
         start_date: "2025-10"
         end_date: present
-        summary: Support business planning and operational improvement through data analysis, optimization modeling, and decision-support tools.
+        summary: "Network Design — Team Lead; Inventory Optimization — Team Member"
         highlights:
-          - Translate business needs into analytical solutions in collaboration with cross-functional teams.
-          - Evaluate scenarios and provide insights that improve supply chain efficiency, service performance, and cost effectiveness.
-          - Develop internal tools and workflows that help teams make faster, better-informed decisions.
-
-      - company: SAIC Volkswagen, Department of Logistics
-        position: Intern
-        start_date: "2019-02"
-        end_date: "2019-06"
-        highlights:
-          - Developed an optimization model to streamline order allocation within the supplier management system.
-
-      - company: Institute of Computing Technology, Chinese Academy of Sciences
-        position: Intern
-        start_date: "2017-07"
-        end_date: "2017-07"
-        highlights:
-          - Implemented real-time taxi-location tracking for a mobile data management platform.
+          - "Network design — optimization model: Develop a mixed-integer conic programming model that jointly optimizes facility openings, origin-destination and mode assignments, and MDC-RFC replenishment across cost, working capital, service, and SLA/OTIF objectives."
+          - "Network design — data pipeline: Build reproducible Python, SQL, and PySpark pipelines that convert enterprise demand, facility, transportation, and inventory data into validated, versioned model inputs."
+          - "Network design — agent architecture: Built the initial DeerFlow-based workflow linking LLM tool orchestration with Databricks compute and optimization jobs, converting natural-language scenarios into traceable solver runs."
+          - "Network design — business implementation: Work with business and executive teams to define assumptions and KPIs, communicate model trade-offs, and translate validated scenarios into planning recommendations."
+          - "Inventory optimization: Contribute to channel-aware SKU segmentation based on sales volume and demand patterns."
+          - "Inventory optimization: Support set segmentation by combining SKU co-sales patterns with business-defined hard-set rules."
+          - "Inventory optimization: Contribute to early-stage set-aware safety-stock and multi-echelon inventory optimization modeling."
 
     Education:
       - institution: National University of Singapore
@@ -42,22 +32,25 @@ cv:
         start_date: "2021-01"
         end_date: "2025-07"
         highlights:
-          - "Research: queueing theory, stochastic processes, data-driven decision-making, dynamic programming, discrete-event simulation, location-allocation optimization, and mixed-integer programming."
+          - "Research: queueing asymptotics, stochastic service systems, location-allocation optimization, and discrete-event simulation."
+          - "[Ph.D. thesis](https://scholarbank.nus.edu.sg/handle/10635/310427)"
 
       - institution: University of North Carolina at Chapel Hill
         area: Statistics & Operations Research
         studyType: M.S.
         start_date: "2019-08"
         end_date: "2020-12"
+        highlights:
+          - "Research: state-dependent queueing models and emergency-department operations."
 
       - institution: Shanghai Jiao Tong University
-        area: Industrial Engineering & Management
+        area: Industrial Engineering
         studyType: B.S.
         start_date: "2015-09"
         end_date: "2019-07"
-        score: "Overall GPA: 89.0/100 (8/60); Major GPA: 91.3/100 (4/60)"
+        score: "Major GPA: 91.3/100 (ranked 4/60)"
         highlights:
-          - "Overall GPA: 89.0/100 (rank 8/60); major GPA: 91.3/100 (rank 4/60)."
+          - "Major GPA: 91.3/100 (ranked 4/60)."
 
     Publications:
       - title: Location-Allocation of Emergency Service Systems in Light Traffic
@@ -68,7 +61,7 @@ cv:
           - Z. Ye
         publisher: Operations Research
         releaseDate: "2026"
-        summary: Accepted for publication.
+        summary: Forthcoming at Operations Research.
 
       - title: A Predictive Opportunistic Maintenance Policy for a Serial-Parallel Multi-Station Manufacturing System with Heterogeneous Components
         authors:
@@ -80,17 +73,17 @@ cv:
         releaseDate: "2025"
 
     Skills:
-      - name: Programming
-        icon: fa-solid fa-code
-        keywords: "Python, SQL"
-
-      - name: Optimization & Analytics
+      - name: Operations Research
         icon: fa-solid fa-chart-line
-        keywords: "Gurobi, MATLAB, mixed-integer programming, stochastic modeling, simulation"
+        keywords: "Mixed-integer programming, network optimization, inventory modeling, queueing theory, stochastic processes, discrete-event simulation"
 
-      - name: Technical Writing
-        icon: fa-solid fa-pen
-        keywords: "LaTeX"
+      - name: AI & Data
+        icon: fa-solid fa-code
+        keywords: "Codex, Python, SQL, PySpark"
+
+      - name: Platforms & Tools
+        icon: fa-solid fa-screwdriver-wrench
+        keywords: "Gurobi, Databricks, Git, MATLAB, LaTeX"
 
     Languages:
       - name: Mandarin

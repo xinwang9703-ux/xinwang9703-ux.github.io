@@ -8,8 +8,8 @@ category: research
 
 <link rel="stylesheet" href="{{ '/assets/css/personal-site.css' | relative_url }}">
 
-This research studies how emergency-service resources should be located and allocated when traffic conditions affect system performance. It combines service-system modeling with location-allocation optimization to support infrastructure and resource-planning decisions.
+This research derives light-traffic asymptotics for spatial queueing systems as utilization approaches zero. The resulting bilinear performance approximations are embedded in an exactly linearized mixed-integer linear program, while multi-server asymptotics accelerate hypercube-queue evaluation.
 
-The paper has been accepted by _Operations Research_ {% cite wang2026location %}. Publication details will be added when available.
+The paper is forthcoming at _Operations Research_ {% cite wang2026location %}. Publication details will be added when available.
 
-**Research areas:** location-allocation, service systems, stochastic modeling, optimization
+**Research areas:** location-allocation, spatial queueing, light-traffic asymptotics, mixed-integer optimization, discrete-event simulation
